@@ -3,6 +3,7 @@
 ## Overview
 
 ImageComparison is a tool for comparing images in one window. By dragging the trackbar in the window, the different columns can be compared in one window.
+![The GUI of ImageComparison](result.png)
 
 ## Changelog
 
