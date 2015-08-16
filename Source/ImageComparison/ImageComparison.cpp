@@ -59,6 +59,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		resize(srcImg, dstImg, dstImg.size());
 	}
+	flip(dstImg, dstImg, 1);
 
 	namedWindow("Comparison", CV_WINDOW_AUTOSIZE);
 	int trackbarInitPos = TRACKBAR_MAX_POSITION / 2;
